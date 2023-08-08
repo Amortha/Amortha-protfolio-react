@@ -1,0 +1,34 @@
+[
+{
+    "_id": 1,
+    "name":"Marias-Pizza(Fontend)",
+    "img": "https://i.ibb.co/kyQLq79/marispizza.png",
+    "text": "● This is a Marias-pizza E-commarce Shop. ● Mobile responsive Website. ● Implemented a beautiful user interface.● User Eye Caccing Shop",
+    "technology":" JavaScript,React.js,React Router,Tailwind CSS, DaigyUI",
+    "gitclint":"https://github.com/Amortha/marias-pizza-clint",
+    "livesite":"https://marias-pizza-clint.vercel.app/"
+
+},
+{
+    "_id": 2,
+    "name":"Ezectric-Electrical-Supply(Full-stack)",
+    "img": "https://i.ibb.co/V3ph6jg/Ejatrik.png",
+    "text": "● This is a Ezectric-Electrical-Supply(Full-stack) E-commarce Website.● Mobile responsive Website.● Implemented a beautiful user interface.● User Eye Caccing Shop ● Extra see only admin user Informations.add product, manage admin panel.● Good login, social and make user id.",
+    "technology":"JavaScript,React JS,React Router,React-From,Tailwind CSS, Mongodb, Firebase,  JWT, toastify.",
+    "gitclint":"https://github.com/Amortha/ezectric-electrical-supply-clint",
+    "gitserver":"https://github.com/Amortha/ezectric-electrical-supply-server",
+    "livesite":"https://ezectric-electrical-supply-clint.vercel.app/"
+
+},
+{
+    "_id": 3,
+    "name":"Webb School(Full-Stack, Team-Project)",
+    "img": "https://i.ibb.co/KGJ9nYg/webbschool.png",
+    "text": "● This is a Webb-school(Full-stack) Educational Website.● Mobile responsive Website.● Implemented a beautiful user interface.● User Eye Caccing Shop ● Extra see only admin user Informations.add product, manage admin panel.● Good login, social and make user id.",
+    "technology":"JavaScript,React JS,React Router,React-From,Tailwind CSS, Mongodb, Firebase,  JWT, toastify.",
+    "gitclint":"https://github.com/MShafiMS/Webb-School",
+    "gitserver":"https://github.com/MDBADSHA7/Webb-school-server",
+    "livesite":"https://webb-school-mission-2022.vercel.app/"
+
+}
+]
