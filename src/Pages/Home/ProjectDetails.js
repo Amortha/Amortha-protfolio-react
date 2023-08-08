@@ -1,21 +1,23 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 const ProjectDetails = () => {
-    const { projectId } = useParams();
-    const [project, setProject] = useState([]);
+    const {id} = useParams();
+    const [details, setDetails] = useState([]);
 
     useEffect(() => {
-        fetch('')
-            .then(res => res.json())
-            .then(data => setProject(data))
-    }, [])
-    const details = project.filter(project => project._id == projectId)
+      fetch("/data.json")
+        .then( res => res.json())
+        .then( data => setDetails(data));
+    }, []);
+
+    const detail = details?.find(item => item._id === id);
+console.log(detail);
     return (
         <div>
-            <h1>this is project</h1>
+            {/* <h1>this is project{detail?.name}</h1>
+            <img src={detail?.img} alt="pic" /> */}
         </div>
     );
 };

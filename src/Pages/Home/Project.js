@@ -6,8 +6,8 @@ const Project = () => {
 
   useEffect(() => {
     fetch("data.json")
-      .then((res) => res.json())
-      .then((data) => setProjects(data));
+      .then( res => res.json())
+      .then( data => setProjects(data));
   }, []);
   return (
     <div id="project">
@@ -17,9 +17,10 @@ const Project = () => {
       </h1>
       <div className="mt-4 lg:mt-20">
         {
-        projects.map( project => <Projects project ={project} key={project._id}></Projects>)
+        projects?.map( project => <Projects project ={project} key={project._id}></Projects>)
         }
         </div>
+
     </div>
   );
 };

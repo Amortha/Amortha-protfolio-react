@@ -1,18 +1,17 @@
 import React from "react";
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 const Projects = ({ project }) => {
-  const { name, img,technology, text,gitclint,gitserver,livesite,} = project;
-  // const navigate = useNavigate();
-  // const handelDetails = id => {
-  //     navigate(`details/${id}`)
-  // }
- 
+  const {_id, name, img,technology, text,gitclint,gitserver,livesite,} = project;
+  const navigate = useNavigate();
+  const navigateToProjectDetail = _id => {
+    navigate(`/detail/${_id}`)
+  }
   return (
 
      <div className="">
-          <button >
+          <button onClick={()=> navigateToProjectDetail(_id)}>
       <div className="lg:grid grid-cols-2 my-5 mx-5 lg:my-6 lg:mx-20 hover:-translate-y-1 hover:scale-110 hover:duration-500 ">
         <div>
             <img  src={img} alt="pic"/>

@@ -6,9 +6,8 @@ import Contact from "./Contact";
 import Portfolio from "./Project";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import Skills from "./Skills";
-import Footer from "./Footer";
 import Education from "./Education";
-import WhatsApp from "./WhatsApp";
+
 
 const Home = () => {
   return (
@@ -20,8 +19,6 @@ const Home = () => {
       <Education></Education>
       <Portfolio></Portfolio>
       <Contact></Contact>
-      <WhatsApp></WhatsApp>
-      <Footer></Footer>
       <AnchorLink></AnchorLink>
     </div>
   );

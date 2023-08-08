@@ -1,14 +1,14 @@
-import { useEffect, useState } from 'react';
-import './App.css';
-import Navber from './Pages/Hader/Navber';
-
-
-import Home from './Pages/Home/Home';
-
+import { useEffect, useState } from "react";
+import "./App.css";
+import Navber from "./Pages/Hader/Navber";
+import Home from "./Pages/Home/Home";
+import { Route, Routes } from "react-router-dom";
+import ProjectDetails from "./Pages/Home/ProjectDetails";
+import Footer from "./Footer";
+import WhatsApp from "./WhatsApp";
 
 function App() {
   const [theme, setTheme] = useState(false);
-
 
   useEffect(() => {
     setTheme(JSON.parse(window.localStorage.getItem("theme")));
@@ -20,10 +20,15 @@ function App() {
   };
 
   return (
-    <div data-theme={theme && "my_dark"} className="">  
+    <div data-theme={theme && "my_dark"} className="">
       <Navber handleThemeChange={handleThemeChange} theme={theme}></Navber>
-   <Home></Home>
-  
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/detail/:id" element={<ProjectDetails />} />
+      </Routes>
+      <WhatsApp></WhatsApp>
+      <Footer></Footer>
     </div>
   );
 }
