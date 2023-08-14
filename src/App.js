@@ -7,6 +7,7 @@ import ProjectDetails from "./Pages/Home/ProjectDetails";
 import Footer from "./Footer";
 import WhatsApp from "./WhatsApp";
 
+
 function App() {
   const [theme, setTheme] = useState(false);
 
