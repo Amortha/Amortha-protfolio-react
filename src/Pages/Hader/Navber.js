@@ -19,22 +19,22 @@ const Navber = ({ handleThemeChange, theme }) => {
 
   const menuItems = (
     <>
-      <li className="px-2 font-black hover:text-purple-800">
+      <li className="px-2 font-black text-xl hover:text-purple-800">
         <Link to="/#home">HOME</Link>
       </li>
-      <li className="px-2 font-black hover:text-purple-800">
+      <li className="px-2 font-black text-xl hover:text-purple-800">
         <Link to="/#aboutus">ABOUT</Link>
       </li>
-      <li className="px-2 font-black hover:text-purple-800">
+      <li className="px-2 font-black text-xl hover:text-purple-800">
         <Link to="/#skills">SKILLS</Link>
       </li>
-      <li className="px-2 font-black hover:text-purple-800">
+      <li className="px-2 font-black text-xl hover:text-purple-800">
         <Link to="/#education">EDUCATION</Link>
       </li>
-      <li className="px-2 font-black hover:text-purple-800">
+      <li className="px-2 font-black text-xl hover:text-purple-800">
         <Link to="/#project">PROJECT</Link>
       </li>
-      <li className="px-2 font-black hover:text-purple-800">
+      <li className="px-2 font-black text-xl hover:text-purple-800">
         <Link to="/#contact">CONTACT</Link>
       </li>
       <li>
@@ -53,7 +53,7 @@ const Navber = ({ handleThemeChange, theme }) => {
         <div className="navbar-start ">
           <div>
             <a className="  normal-case text-xl hidden  lg:flex">
-             <Link to="/#home"> <h1 className="font-bold font-black">AMORTHA KUMAR SHILL</h1></Link>
+             <Link to="/#home"> <h1 className="font-bold font-black text-xl">AMORTHA KUMAR SHILL</h1></Link>
             </a>
           </div>
 

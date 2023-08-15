@@ -19,7 +19,7 @@ const Banar = () => {
         className="lg:mt-32"
       >
         <h1 className="text-xl lg:text-3xl font-bold  text-center">
-          HELLO...!
+          HELLO. . . !
           <br />
           I'M AMORTHA KUMAR SHILL
           <br />
