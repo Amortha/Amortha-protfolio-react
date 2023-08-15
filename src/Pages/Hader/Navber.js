@@ -53,7 +53,7 @@ const Navber = ({ handleThemeChange, theme }) => {
         <div className="navbar-start ">
           <div>
             <a className="  normal-case text-xl hidden  lg:flex">
-              <h1 className="font-bold font-black">AMORTHA KUMAR SHILL</h1>
+             <Link to="/#home"> <h1 className="font-bold font-black">AMORTHA KUMAR SHILL</h1></Link>
             </a>
           </div>
 

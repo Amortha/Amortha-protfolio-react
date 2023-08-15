@@ -10,7 +10,7 @@ const Banar = () => {
 
   const handleDone = () => {};
   return (
-    <div className=" grid lg:grid-cols-2 mx-10" id="home">
+    <div className=" grid lg:grid-cols-2 mx-10 " id="home">
       <div
         data-aos="fade-right"
         data-aos-anchor="#example-anchor"

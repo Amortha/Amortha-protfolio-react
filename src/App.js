@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import ProjectDetails from "./Pages/Home/ProjectDetails";
 import Footer from "./Footer";
 import WhatsApp from "./WhatsApp";
+import "../src/Pages/Home/FontStyle.css"
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
   };
 
   return (
-    <div data-theme={theme && "my_dark"} className="">
+    <div data-theme={theme && "my_dark"} className="fontstyle">
       <Navber handleThemeChange={handleThemeChange} theme={theme}></Navber>
 
       <Routes>
