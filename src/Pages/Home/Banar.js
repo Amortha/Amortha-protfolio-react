@@ -65,7 +65,7 @@ const Banar = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/17qpOCHURd3PzaQaPz1C8Fn52lTJrl9eO/view?usp=share_link"
+              href="https://drive.google.com/file/d/1ESFNp4ASA6rpIOGtEiNlk3joLsTepkTR/view?usp=sharing"
             >
               See My Resume
             </a>{" "}

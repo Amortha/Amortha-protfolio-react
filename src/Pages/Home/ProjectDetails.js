@@ -65,17 +65,22 @@ const ProjectDetails = () => {
             </div>
           </div>
           <div className="mt-12">
-            <h1 className="font-bold text-2xl">Description:</h1>
+          <p>
+            <span className="font-bold my-2 text-xl">Technology Used: </span>
+            <span className="text-xl">{detail?.technology}</span>
+          </p>
+            <h1 className="font-bold mt-2 text-2xl">Description:</h1>
             <p
-              className="font-bold mt-5 text-xl"
+              className="font-bold mt-2 text-xl"
               dangerouslySetInnerHTML={{ __html: detail?.text }}
             />
           </div>
         </div>
         <div>
-          <h1 className="font-bold text-2xl my-3 lg:my-0 lg:mb-10">
+          <h1 className="font-bold text-2xl mt-3 lg:my-0 lg:mb-5">
             {detail?.name}
           </h1>
+          
           <h1 className="font-semibold text-xl">
             Live Link:
             <a
